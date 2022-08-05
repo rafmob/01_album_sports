@@ -4,9 +4,58 @@
     font-family: "Inter", sans-serif;
 }
 body {
-    background-color: #141420;
+    background-color: #283056;
     width: 100%;
     max-width: 1061px;
     margin: auto;
 }
 
+.allCards {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: 0 2.2rem 2.2rem 0;
+    color: #fff;
+    width: 15rem;
+    height: 23rem;
+    background: #141420;
+    border-radius: 0.6rem;
+}
+
+.bgImage {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 100%;
+    max-width: 11rem;
+    height: 15rem;
+}
+  
+.card img {
+border: solid #000 4px;
+width: 10rem;
+height: 14rem;
+object-fit: cover;
+}
+
+.card .infoCard {
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.infoCard h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
