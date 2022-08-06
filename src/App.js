@@ -36,6 +36,54 @@ const Cards = [
     time: 'Manchester United',
     imagem: "https://www.infomoney.com.br/wp-content/uploads/2022/06/GettyImages-1373344854.jpg?fit=594%2C449&quality=50&strip=all"
   },
+  {
+    id: 3,
+    nome: "Luva de Pedreiro",
+    numeroCamisa: 100,
+    idade: 20,
+    time: 'Receba/BR',
+    imagem: "https://midias.agazeta.com.br/2022/06/22/iran-ferreira-luva-de-pedreiro-786158-article.jpg"
+  },
+  {
+    id: 4,
+    nome: "Cristiano Ronaldo",
+    numeroCamisa: 7,
+    idade: 37,
+    time: 'Manchester United',
+    imagem: "https://www.infomoney.com.br/wp-content/uploads/2022/06/GettyImages-1373344854.jpg?fit=594%2C449&quality=50&strip=all"
+  },
+  {
+    id: 3,
+    nome: "Luva de Pedreiro",
+    numeroCamisa: 100,
+    idade: 20,
+    time: 'Receba/BR',
+    imagem: "https://midias.agazeta.com.br/2022/06/22/iran-ferreira-luva-de-pedreiro-786158-article.jpg"
+  },
+  {
+    id: 4,
+    nome: "Cristiano Ronaldo",
+    numeroCamisa: 7,
+    idade: 37,
+    time: 'Manchester United',
+    imagem: "https://www.infomoney.com.br/wp-content/uploads/2022/06/GettyImages-1373344854.jpg?fit=594%2C449&quality=50&strip=all"
+  },
+  {
+    id: 3,
+    nome: "Luva de Pedreiro",
+    numeroCamisa: 100,
+    idade: 20,
+    time: 'Receba/BR',
+    imagem: "https://midias.agazeta.com.br/2022/06/22/iran-ferreira-luva-de-pedreiro-786158-article.jpg"
+  },
+  {
+    id: 4,
+    nome: "Cristiano Ronaldo",
+    numeroCamisa: 7,
+    idade: 37,
+    time: 'Manchester United',
+    imagem: "https://www.infomoney.com.br/wp-content/uploads/2022/06/GettyImages-1373344854.jpg?fit=594%2C449&quality=50&strip=all"
+  },
 ]
 
 function App() {

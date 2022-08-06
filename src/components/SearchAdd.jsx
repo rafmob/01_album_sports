@@ -8,7 +8,9 @@ function SearchAdd() {
         <input type="text" class="form-control form-control-sm" placeholder="Buscar Jogador" aria-label="Buscar Jogador" aria-describedby="button-addon2" />
         <button class="btn btn-outline-dark" type="button" id="button-addon2">Buscar</button>
       </div>
-      <img src={button_add} alt="Logotipo Album Sport" />
+      <a className='btn_add' href="">
+        <img src={button_add} alt="Logotipo Album Sport" />
+      </a>
       
     </div>
   );

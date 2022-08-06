@@ -5,7 +5,7 @@ export default function Card(props) {
     const { nome, numeroCamisa, idade, time, imagem } = props.card;
 
     return (
-        <div>
+        <a className='a_card' href='www.google.com'>
             <div class="card">
                 <div className='bgImage'>
                     <img src={imagem} alt="" />
@@ -22,7 +22,7 @@ export default function Card(props) {
                     </div>
                 </div>
             </div>
-        </div>
+        </a>
         
     )
 }

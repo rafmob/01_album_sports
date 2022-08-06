@@ -10,10 +10,18 @@
     padding: 42px 0 42px 0;
 }
 
+.btn_add {
+    transition: all 0.3s;
+}
+
+.btn_add:hover {
+    transform: scale(1.05);  
+}
+
 .form-control {
     color: #fff;
-    background-color: #505050;
-    border: 1px solid #0E0E0E;
+    background-color: #283056;
+    border: 1px solid #141420;
     width: auto;
     max-width: 250px;
     min-height: 50px;
@@ -25,4 +33,5 @@
 
 .btn-outline-dark {
     color: #fff;
+    border-color: #141420;
 }
