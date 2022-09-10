@@ -11,8 +11,8 @@
     },
     {
       "id": 0.1926124135164652,
-      "nomeCamisa": "Marcelo",
-      "numero": 12,
+      "nome": "Marcelo",
+      "numeroCamisa": 12,
       "idade": 34,
       "time": "Olympiacos F.C.",
       "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Marcelo_850_1622.jpg/183px-20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Marcelo_850_1622.jpg",
