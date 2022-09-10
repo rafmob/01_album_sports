@@ -2,97 +2,100 @@ import './App.css';
 import Card from './components/Card';
 import Header from './components/Header';
 import SearchAdd from './components/SearchAdd';
+import { useState, useEffect } from 'react';
 
-const Cards = [
-  {
-      id: 1,
-      nome: "Neymar Jr.",
-      numeroCamisa: 10,
-      idade: 30,
-      time: 'Paris Saint-Germain',
-      imagem: "https://pbs.twimg.com/media/E54lvMJXEAIjKVI.jpg:large"
-  },
-  {
-    id: 2,
-    nome: "Hulk.",
-    numeroCamisa: 7,
-    idade: 36,
-    time: 'Atlético MG',
-    imagem: "https://s2.glbimg.com/liAdtdK-T2kJz6K38gUxZtVaACg=/0x0:1080x608/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/i/C/st8qzWQQquwv5S6GEmyQ/hulk-100.jpg"
-  },
-  {
-    id: 3,
-    nome: "Luva de Pedreiro",
-    numeroCamisa: 100,
-    idade: 20,
-    time: 'Receba/BR',
-    imagem: "https://midias.agazeta.com.br/2022/06/22/iran-ferreira-luva-de-pedreiro-786158-article.jpg"
-  },
-  {
-    id: 4,
-    nome: "Cristiano Ronaldo",
-    numeroCamisa: 7,
-    idade: 37,
-    time: 'Manchester United',
-    imagem: "https://www.infomoney.com.br/wp-content/uploads/2022/06/GettyImages-1373344854.jpg?fit=594%2C449&quality=50&strip=all"
-  },
-  {
-    id: 3,
-    nome: "Luva de Pedreiro",
-    numeroCamisa: 100,
-    idade: 20,
-    time: 'Receba/BR',
-    imagem: "https://midias.agazeta.com.br/2022/06/22/iran-ferreira-luva-de-pedreiro-786158-article.jpg"
-  },
-  {
-    id: 4,
-    nome: "Cristiano Ronaldo",
-    numeroCamisa: 7,
-    idade: 37,
-    time: 'Manchester United',
-    imagem: "https://www.infomoney.com.br/wp-content/uploads/2022/06/GettyImages-1373344854.jpg?fit=594%2C449&quality=50&strip=all"
-  },
-  {
-    id: 3,
-    nome: "Luva de Pedreiro",
-    numeroCamisa: 100,
-    idade: 20,
-    time: 'Receba/BR',
-    imagem: "https://midias.agazeta.com.br/2022/06/22/iran-ferreira-luva-de-pedreiro-786158-article.jpg"
-  },
-  {
-    id: 4,
-    nome: "Cristiano Ronaldo",
-    numeroCamisa: 7,
-    idade: 37,
-    time: 'Manchester United',
-    imagem: "https://www.infomoney.com.br/wp-content/uploads/2022/06/GettyImages-1373344854.jpg?fit=594%2C449&quality=50&strip=all"
-  },
-  {
-    id: 3,
-    nome: "Luva de Pedreiro",
-    numeroCamisa: 100,
-    idade: 20,
-    time: 'Receba/BR',
-    imagem: "https://midias.agazeta.com.br/2022/06/22/iran-ferreira-luva-de-pedreiro-786158-article.jpg"
-  },
-  {
-    id: 4,
-    nome: "Cristiano Ronaldo",
-    numeroCamisa: 7,
-    idade: 37,
-    time: 'Manchester United',
-    imagem: "https://www.infomoney.com.br/wp-content/uploads/2022/06/GettyImages-1373344854.jpg?fit=594%2C449&quality=50&strip=all"
-  },
-]
+
+const API = "https://my-json-server.typicode.com/rafmob/01_album_sports";
 
 function App() {
+
+  const [title, setTitle] = useState("");
+  const [time, setTime] = useState("");
+  const [todos, setTodos] = useState([]);
+  const [loading, setLoading] = useState(false);
+  
+  useEffect(() => {
+    const loadData = async() => {
+      setLoading(true)
+
+      const res = await fetch(API + "/todos")
+      .then((res) => res.json())
+      .then((data) => data)
+      .catch((err) => console.log(err));
+
+      setLoading(false);
+
+      setTodos(res);
+
+    }
+
+    loadData()
+  }, []);
+
+  
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    
+    const todo = {
+      id: Math.random(),
+      title,
+      time,
+      done: false,
+    };
+
+    await fetch(API + "/todos", {
+      method: "POST",
+      body: JSON.stringify(todo),
+      headers: {
+        "Content-Type": "application/json",
+      }
+    });
+
+    setTodos((prevState) => [...prevState, todo]);
+
+    console.log(todo)
+
+    setTitle(""); //Zerar o input
+    setTime("");  //Zerar o input
+  };
+
+  const handleDelete = async (id) => {
+
+    await fetch(API + "/todos/" + id, {
+      method: "DELETE"
+    });
+    
+    setTodos((prevState) => prevState.filter((todo) => todo.id !== id))
+
+  }
+
+  const handleEdit = async(todo) => {
+
+    todo.done = !todo.done
+
+    const data = await fetch(API + "/todos" + todo.id, {
+      method: "PUT",
+      body: JSON.stringify(todo),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+
+    setTodos((prevState) => prevState.map((t) => (t.id === data.id) ? (t = data) : t));
+  };
+
+  if (loading) {
+    return <p>Carregando...</p>
+  }
+
   return (
     <div className="App">
       <Header />
+
       <SearchAdd />
+      
       <div className='allCards'>
-        {Cards.map(card => <Card card={card} />)}
+        {todos.map(todo => <Card card={todo} />)}
       </div>
     </div>
   );
