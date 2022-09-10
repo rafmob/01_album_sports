@@ -70,3 +70,22 @@ object-fit: cover;
     font-weight: bold;
     margin-bottom: 0;
 }
+
+.formModal {
+    background-color: #283056;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.form-control .form{
+    color: #fff;
+    background-color: #562828;
+    border: 1px solid #141420;
+    width: auto;
+    max-width: 250px;
+    min-height: 50px;
+    border-radius: 8px;
+    margin-right: 5px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
