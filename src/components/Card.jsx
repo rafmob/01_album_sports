@@ -18,7 +18,7 @@ export default function Card(props) {
                         {time} 
                     </div>
                     <div>
-                        {idade} ANOS                
+                        {idade} ANOS teste              
                     </div>
                 </div>
             </div>
