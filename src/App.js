@@ -1,11 +1,12 @@
 import './App.css';
 import Card from './components/Card';
-import Header from './components/Header';
 import SearchAdd from './components/SearchAdd';
 import { useState, useEffect } from 'react';
 
+// Caminho para JSON Online
+// const API = "https://my-json-server.typicode.com/rafmob/01_album_sports";
 
-const API = "https://my-json-server.typicode.com/rafmob/01_album_sports";
+const API = "http://localhost:5000";
 
 function App() {
 
@@ -90,7 +91,6 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
 
       <SearchAdd />
       

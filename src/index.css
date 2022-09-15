@@ -16,6 +16,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     row-gap: 1.5rem;
+    margin: auto;
     margin-bottom: 2.7rem;
 }
 

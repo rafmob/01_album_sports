@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+Projeto To Do List feito com ReactJS para o Módulo 04 do curso de Programação da Blue EdTech.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Server - JSON Server na porta 5000 (Para rodar, basta iniciar o server com o "comando npm run server").
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+,
+{
+"id": 3,
+"nome": "Luva de Pedreiro",
+"numeroCamisa": 100,
+"idade": 20,
+"time": "Receba/BR",
+"imagem": "https://midias.agazeta.com.br/2022/06/22/iran-ferreira-luva-de-pedreiro-786158-article.jpg",
+"historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
+},
+{
+"id": 4,
+"nome": "Cristiano Ronaldo",
+"numeroCamisa": 7,
+"idade": 37,
+"time": "Manchester United",
+"imagem": "https://www.infomoney.com.br/wp-content/uploads/2022/06/GettyImages-1373344854.jpg?fit=594%2C449&quality=50&strip=all",
+"historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
+},
+{
+"id": 2,
+"nome": "Hulk.",
+"numeroCamisa": 7,
+"idade": 36,
+"time": "Atlético MG",
+"imagem": "https://s2.glbimg.com/liAdtdK-T2kJz6K38gUxZtVaACg=/0x0:1080x608/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/i/C/st8qzWQQquwv5S6GEmyQ/hulk-100.jpg",
+"historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
+},
+{
+"id": 3,
+"nome": "Luva de Pedreiro",
+"numeroCamisa": 100,
+"idade": 20,
+"time": "Receba/BR",
+"imagem": "https://midias.agazeta.com.br/2022/06/22/iran-ferreira-luva-de-pedreiro-786158-article.jpg",
+"historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
+},
+{
+"id": 4,
+"nome": "Cristiano Ronaldo",
+"numeroCamisa": 7,
+"idade": 37,
+"time": "Manchester United",
+"imagem": "https://www.infomoney.com.br/wp-content/uploads/2022/06/GettyImages-1373344854.jpg?fit=594%2C449&quality=50&strip=all",
+"historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
+},
+{
+"id": 3,
+"nome": "Luva de Pedreiro",
+"numeroCamisa": 100,
+"idade": 20,
+"time": "Receba/BR",
+"imagem": "https://midias.agazeta.com.br/2022/06/22/iran-ferreira-luva-de-pedreiro-786158-article.jpg",
+"historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
+},
+{
+"id": 4,
+"nome": "Cristiano Ronaldo",
+"numeroCamisa": 7,
+"idade": 37,
+"time": "Manchester United",
+"imagem": "https://www.infomoney.com.br/wp-content/uploads/2022/06/GettyImages-1373344854.jpg?fit=594%2C449&quality=50&strip=all",
+"historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
+},
+{
+"id": 3,
+"nome": "Luva de Pedreiro",
+"numeroCamisa": 100,
+"idade": 20,
+"time": "Receba/BR",
+"imagem": "https://midias.agazeta.com.br/2022/06/22/iran-ferreira-luva-de-pedreiro-786158-article.jpg",
+"historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
+},
+{
+"id": 4,
+"nome": "Cristiano Ronaldo",
+"numeroCamisa": 7,
+"idade": 37,
+"time": "Manchester United",
+"imagem": "https://www.infomoney.com.br/wp-content/uploads/2022/06/GettyImages-1373344854.jpg?fit=594%2C449&quality=50&strip=all",
+"historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
+},
+{
+"id": 3,
+"nome": "Luva de Pedreiro",
+"numeroCamisa": 100,
+"idade": 20,
+"time": "Receba/BR",
+"imagem": "https://midias.agazeta.com.br/2022/06/22/iran-ferreira-luva-de-pedreiro-786158-article.jpg",
+"historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
+},
+{
+"id": 4,
+"nome": "Cristiano Ronaldo",
+"numeroCamisa": 7,
+"idade": 37,
+"time": "Manchester United",
+"imagem": "https://www.infomoney.com.br/wp-content/uploads/2022/06/GettyImages-1373344854.jpg?fit=594%2C449&quality=50&strip=all",
+"historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
+}
