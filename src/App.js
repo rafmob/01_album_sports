@@ -1,6 +1,5 @@
 import './App.css';
 import Card from './components/Card';
-import SearchAdd from './components/SearchAdd';
 import { useState, useEffect } from 'react';
 
 // Caminho para JSON Online
@@ -91,8 +90,6 @@ function App() {
 
   return (
     <div className="App">
-
-      <SearchAdd />
       
       <div className='allCards'>
         {todos.map(todo => <Card card={todo} />)}
