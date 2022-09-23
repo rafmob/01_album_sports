@@ -9,8 +9,6 @@ const API = "http://localhost:5000";
 
 function App() {
 
-  const [title, setTitle] = useState("");
-  const [time, setTime] = useState("");
   const [todos, setTodos] = useState([]);
   const [loading, setLoading] = useState(false);
   
@@ -30,59 +28,33 @@ function App() {
     }
 
     loadData()
+    
   }, []);
 
-  
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  // const handleDelete = async (id) => {
+
+  //   await fetch(API + "/todos/" + id, {
+  //     method: "DELETE"
+  //   });
     
-    const todo = {
-      id: Math.random(),
-      title,
-      time,
-      done: false,
-    };
+  //   setTodos((prevState) => prevState.filter((todo) => todo.id !== id))
 
-    await fetch(API + "/todos", {
-      method: "POST",
-      body: JSON.stringify(todo),
-      headers: {
-        "Content-Type": "application/json",
-      }
-    });
+  // }
 
-    setTodos((prevState) => [...prevState, todo]);
+  // const handleEdit = async(todo) => {
 
-    console.log(todo)
+  //   todo.done = !todo.done
 
-    setTitle(""); //Zerar o input
-    setTime("");  //Zerar o input
-  };
+  //   const data = await fetch(API + "/todos" + todo.id, {
+  //     method: "PUT",
+  //     body: JSON.stringify(todo),
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //   });
 
-  const handleDelete = async (id) => {
-
-    await fetch(API + "/todos/" + id, {
-      method: "DELETE"
-    });
-    
-    setTodos((prevState) => prevState.filter((todo) => todo.id !== id))
-
-  }
-
-  const handleEdit = async(todo) => {
-
-    todo.done = !todo.done
-
-    const data = await fetch(API + "/todos" + todo.id, {
-      method: "PUT",
-      body: JSON.stringify(todo),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-
-    setTodos((prevState) => prevState.map((t) => (t.id === data.id) ? (t = data) : t));
-  };
+  //   setTodos((prevState) => prevState.map((t) => (t.id === data.id) ? (t = data) : t));
+  // };
 
   if (loading) {
     return <p>Carregando...</p>

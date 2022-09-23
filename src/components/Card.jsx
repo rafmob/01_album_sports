@@ -1,12 +1,14 @@
 import '../App.css';
 
+const ano_atual = new Date().getFullYear();
+
 export default function Card(props) {
 
-    const { nome, numeroCamisa, idade, time, imagem } = props.card;
+    const { nome, numeroCamisa, nascimento, time, imagem } = props.card;
 
     return (
         <button className='a_card'>
-            <div class="card">
+            <div className="card">
                 <div className='bgImage'>
                     <img src={imagem} alt="" />
                 </div>
@@ -18,7 +20,7 @@ export default function Card(props) {
                         {time} 
                     </div>
                     <div>
-                        {idade} ANOS
+                        {ano_atual - nascimento} ANOS
                     </div>
                 </div>
             </div>

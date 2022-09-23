@@ -1,104 +1,148 @@
 {
   "todos": [
     {
-      "id": 2,
-      "nome": "Hulk",
-      "numeroCamisa": 7,
-      "idade": 36,
-      "time": "Atlético MG",
-      "imagem": "https://s2.glbimg.com/liAdtdK-T2kJz6K38gUxZtVaACg=/0x0:1080x608/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/i/C/st8qzWQQquwv5S6GEmyQ/hulk-100.jpg",
+      "id": 0.5614115567310938,
+      "nome": "Marcelo",
+      "numeroCamisa": "12",
+      "nascimento": "1988",
+      "time": "Olympiacos",
+      "imagem": "https://phantom-marca.unidadeditorial.es/d248585542eeffd117a3098ab9a4620c/resize/1320/f/jpg/assets/multimedia/imagenes/2022/09/03/16621574780975.jpg",
+      "historia": "Marcelo Vieira da Silva Júnior, mais conhecido apenas como Marcelo, é um futebolista brasileiro que atua como lateral-esquerdo. Atualmente, é jogador do Olympiacos. O brasileiro já foi elogiado por grandes ex-jogadores como Paolo Maldini e Diego Maradona, que o considerou o melhor de sua posição."
+    },
+    {
+      "id": 0.02735613793698488,
+      "nome": "Neymar",
+      "numeroCamisa": "10",
+      "nascimento": "1992",
+      "time": "Paris Saint-Germain",
+      "imagem": "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt8ce05ee616e9a477/60db2a9fa37ada0f2ccd9185/6f4e7db0c8b02d58a5ecf346ed201e8fdb46885e.jpg",
       "historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
     },
     {
-    "id": 4,
-    "nome": "Cristiano Ronaldo",
-    "numeroCamisa": 7,
-    "idade": 37,
-    "time": "Manchester United",
-    "imagem": "https://www.infomoney.com.br/wp-content/uploads/2022/06/GettyImages-1373344854.jpg?fit=594%2C449&quality=50&strip=all",
-    "historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
+      "id": 0.8836777374951816,
+      "nome": "Hulk",
+      "numeroCamisa": "7",
+      "nascimento": "1986",
+      "time": "Atlético Mineiro",
+      "imagem": "https://www.ofutebolero.com.br/__export/1630850969701/sites/elfutboleromx/img/2021/09/05/hulk-atletico-mg-atletico-go-brasileirao-01-07-2021_4xw9hwi01azm1gggcc0bn5b3y.jpg_1800405350.jpg",
+      "historia": "Givanildo Vieira de Sousa, mais conhecido como Hulk, é um futebolista brasileiro que atua como atacante. Atualmente, joga pelo Atlético Mineiro. Começou sua trajetória no futebol aos 12 anos, sendo o Vitória seu primeiro clube como profissional."
     },
     {
-    "id": 2,
-    "nome": "Hulk.",
-    "numeroCamisa": 7,
-    "idade": 36,
-    "time": "Atlético MG",
-    "imagem": "https://s2.glbimg.com/liAdtdK-T2kJz6K38gUxZtVaACg=/0x0:1080x608/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/i/C/st8qzWQQquwv5S6GEmyQ/hulk-100.jpg",
-    "historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
+      "id": 0.20710234318005494,
+      "nome": "Cristiano Ronaldo",
+      "numeroCamisa": "7",
+      "nascimento": "1985",
+      "time": "Manchester United",
+      "imagem": "https://imgresizer.eurosport.com/unsafe/1280x720/smart/filters:format(jpeg)/origin-imgresizer.eurosport.com/2021/08/27/3208031-65715888-2560-1440.jpg",
+      "historia": "Cristiano Ronaldo dos Santos Aveiro é um futebolista português que atua como extremo-esquerdo ou ponta de lança. Atualmente joga pelo Manchester United e pela Seleção Portuguesa, onde é capitão."
     },
     {
-    "id": 3,
-    "nome": "Luva de Pedreiro",
-    "numeroCamisa": 100,
-    "idade": 20,
-    "time": "Receba/BR",
-    "imagem": "https://midias.agazeta.com.br/2022/06/22/iran-ferreira-luva-de-pedreiro-786158-article.jpg",
-    "historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
+      "id": 0.680825968349172,
+      "nome": "Messi",
+      "numeroCamisa": "30",
+      "nascimento": "1987",
+      "time": "Paris Saint-Germain",
+      "imagem": "https://besthqwallpapers.com/Uploads/31-8-2021/177033/thumb2-4k-lionel-messi-psg-2021-blue-neon-lights-paris-saint-germain.jpg",
+      "historia": "Lionel Andrés Messi Cuccittini é um futebolista argentino que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Argentina, onde é capitão."
     },
     {
-    "id": 4,
-    "nome": "Cristiano Ronaldo",
-    "numeroCamisa": 7,
-    "idade": 37,
-    "time": "Manchester United",
-    "imagem": "https://www.infomoney.com.br/wp-content/uploads/2022/06/GettyImages-1373344854.jpg?fit=594%2C449&quality=50&strip=all",
-    "historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
+      "id": 0.9344564699961517,
+      "nome": "Luva de Pedreiro",
+      "numeroCamisa": "100",
+      "nascimento": "2002",
+      "time": "Receba",
+      "imagem": "https://s2.glbimg.com/-FCvmWnBRG_nocjXMazAaZTDEKM=/0x31:1080x916/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/o/r/J3h3BmTpqZwKlF5BhUtA/278124439-479217953885248-7176633954328770607-n.jpg",
+      "historia": "Iran de Santana Alves, mais conhecido como Luva de Pedreiro, é um ex criador de conteúdo e ex influenciador digital brasileiro que em 2022 quebrou recordes de engajamento em conteúdos virtuais."
     },
     {
-    "id": 3,
-    "nome": "Luva de Pedreiro",
-    "numeroCamisa": 100,
-    "idade": 20,
-    "time": "Receba/BR",
-    "imagem": "https://midias.agazeta.com.br/2022/06/22/iran-ferreira-luva-de-pedreiro-786158-article.jpg",
-    "historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
+      "id": 0.18209338094181238,
+      "nome": "Vinícius Júnior",
+      "numeroCamisa": "20",
+      "nascimento": "2000",
+      "time": "Real Madrid",
+      "imagem": "https://besthqwallpapers.com/Uploads/22-2-2019/81367/thumb2-4k-vinicius-junior-blue-uniform-real-madrid-fc-brazilian-footballers.jpg",
+      "historia": "Vinícius José Paixão de Oliveira Júnior, mais conhecido como Vinícius Júnior ou Vini Jr, é um futebolista brasileiro que também possui a nacionalidade espanhola. Atualmente joga no Real Madrid, atuando como ponta-esquerda."
     },
     {
-    "id": 4,
-    "nome": "Cristiano Ronaldo",
-    "numeroCamisa": 7,
-    "idade": 37,
-    "time": "Manchester United",
-    "imagem": "https://www.infomoney.com.br/wp-content/uploads/2022/06/GettyImages-1373344854.jpg?fit=594%2C449&quality=50&strip=all",
-    "historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
+      "id": 0.07115170356577027,
+      "nome": "LeBron James",
+      "numeroCamisa": "6",
+      "nascimento": "1984",
+      "time": "Los Angeles Lakers",
+      "imagem": "http://conteudo.imguol.com.br/c/esporte/e1/2019/02/01/lebron-james-voltou-ao-time-do-los-angeles-lakers-na-partida-contra-o-los-angeles-clippers-1549016321109_v2_1920x1425.jpg",
+      "historia": "LeBron Raymone James é um basquetebolista norte-americano que atua como ala pelo Los Angeles Lakers. Apelidado de King James, é amplamente reconhecido como um dos maiores jogadores de basquetebol de todos os tempos, ocupando a segunda posição na lista divulgada pela ESPN em 2020, atrás apenas de Michael Jordan."
     },
     {
-    "id": 3,
-    "nome": "Luva de Pedreiro",
-    "numeroCamisa": 100,
-    "idade": 20,
-    "time": "Receba/BR",
-    "imagem": "https://midias.agazeta.com.br/2022/06/22/iran-ferreira-luva-de-pedreiro-786158-article.jpg",
-    "historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
+      "id": 0.7665269755468278,
+      "nome": "Stephen Curry",
+      "numeroCamisa": "30",
+      "nascimento": "1988",
+      "time": "Golden State Warriors",
+      "imagem": "https://images2.alphacoders.com/982/982248.jpg",
+      "historia": "Wardell Stephen Curry II é um jogador norte-americano de basquete profissional que atualmente joga pelo Golden State Warriors, disputando a NBA. Muitos jogadores e analistas o consideram como o melhor arremessador da história do esporte."
     },
     {
-    "id": 4,
-    "nome": "Cristiano Ronaldo",
-    "numeroCamisa": 7,
-    "idade": 37,
-    "time": "Manchester United",
-    "imagem": "https://www.infomoney.com.br/wp-content/uploads/2022/06/GettyImages-1373344854.jpg?fit=594%2C449&quality=50&strip=all",
-    "historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
+      "id": 0.926636506632253,
+      "nome": "James Harden",
+      "numeroCamisa": "1",
+      "nascimento": "1989",
+      "time": "Philadelphia 76ers",
+      "imagem": "https://mir-s3-cdn-cf.behance.net/projects/404/1d42e1137910137.Y3JvcCwyMzAwLDE3OTksMCw0NDk.png",
+      "historia": "James Edward Harden Jr. é um jogador norte-americano de basquetebol profissional que atualmente joga pelo Philadelphia 76ers da NBA. Ele jogou basquete universitário na Universidade Estadual do Arizona, onde foi nomeado para a Primeira-Equipe All-American e recebeu o prêmio de Jogador do Ano da Pac-10 em 2009."
     },
     {
-    "id": 3,
-    "nome": "Luva de Pedreiro",
-    "numeroCamisa": 100,
-    "idade": 20,
-    "time": "Receba/BR",
-    "imagem": "https://midias.agazeta.com.br/2022/06/22/iran-ferreira-luva-de-pedreiro-786158-article.jpg",
-    "historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
+      "id": 0.3751845463557375,
+      "nome": "Tom Brady",
+      "numeroCamisa": "12",
+      "nascimento": "1977",
+      "time": "Tampa Bay Buccaneers",
+      "imagem": "https://i.pinimg.com/736x/24/20/48/2420485a29d90c3ab0884e683068298f.jpg",
+      "historia": "Thomas Edward Patrick \"Tom\" Brady, Jr. é um jogador de futebol americano que atua como quarterback pelo Tampa Bay Buccaneers na National Football League."
     },
     {
-    "id": 4,
-    "nome": "Cristiano Ronaldo",
-    "numeroCamisa": 7,
-    "idade": 37,
-    "time": "Manchester United",
-    "imagem": "https://www.infomoney.com.br/wp-content/uploads/2022/06/GettyImages-1373344854.jpg?fit=594%2C449&quality=50&strip=all",
-    "historia": "Neymar da Silva Santos Júnior, mais conhecido apenas como Neymar, é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo."
+      "id": 0.173269371786279,
+      "nome": "Rob Gronkowski",
+      "numeroCamisa": "87",
+      "nascimento": "1989",
+      "time": "Tampa Bay Buccaneers",
+      "imagem": "https://besthqwallpapers.com/Uploads/3-5-2020/131257/thumb2-rob-gronkowski-4k-linebacker-tampa-bay-buccaneers-american-football.jpg",
+      "historia": "Robert James \"Rob\" Gronkowski, muitas vezes conhecido por seu apelido \"Gronk\" é um jogador aposentado de futebol americano que jogava na posição de tight end na National Football League."
+    },
+    {
+      "id": 0.8353837901270162,
+      "nome": "Mike Trout",
+      "numeroCamisa": "27",
+      "nascimento": "1991",
+      "time": "Los Angeles Angels",
+      "imagem": "https://i.pinimg.com/originals/59/01/50/590150cf624355dbd811c6ff05ae549e.png",
+      "historia": "Michael Nelson Trout é um jogador profissional de beisebol que atua como campista central pelo Los Angeles Angels da Major League Baseball. Trout foi convocado oito vezes para o All-Star Game e recebeu o título de MVP da American League em 2014, 2016 e 2019."
+    },
+    {
+      "id": 0.42865894363490353,
+      "nome": "Xander Bogaerts",
+      "numeroCamisa": "2",
+      "nascimento": "1992",
+      "time": "Boston Red Sox",
+      "imagem": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/mlb-xanderbogaerts-xander-bogaerts-xander-bogaerts-boston-red-sox-bostonredsox-xanderjanbogaerts-xan-wrenn-huber.jpg",
+      "historia": "Xander Jan Bogaerts, nascido em 1º de outubro de 1992) apelidado de The X-Man e Bogey, é um jogador profissional de beisebol arubiano atuando pelo Boston Red Sox da Major League Baseball e pela Seleção Neerlandesa de Beisebol. Tem 1,85 m. e 95 quilos."
+    },
+    {
+      "id": 0.18628215721482122,
+      "nome": "Shohei Otani",
+      "numeroCamisa": "17",
+      "nascimento": "1994",
+      "time": "Los Angeles Angels",
+      "imagem": "https://i.pinimg.com/originals/a4/a6/c0/a4a6c00277823d1f0a8954dcf178fdc6.png",
+      "historia": "Shohei Ohtani é um beisebolista japonês. Atualmente, está no time Los Angeles Angels of Anaheim, o qual representa seu país. Ohtani se tornou o arremessador a mais anotar home runs na história da NPB, 40 no total, deixando para trás Masaichi Kaneda."
+    },
+    {
+      "id": 0.7012512167597074,
+      "nome": "wqw",
+      "numeroCamisa": "qwqw",
+      "nascimento": "15",
+      "time": "qw",
+      "imagem": "https://phantom-marca.unidadeditorial.es/d248585542eeffd117a3098ab9a4620c/resize/1320/f/jpg/assets/multimedia/imagenes/2022/09/03/16621574780975.jpg",
+      "historia": "qw"
     }
-    
   ]
 }
