@@ -1,94 +1,91 @@
 .Header {
-    padding: 16px 0 16px 0;
-    border-bottom: solid 1px #505050;
+  padding: 16px 0 16px 0;
+  border-bottom: solid 1px #505050;
 }
 
 .SearchAdd {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 42px 0 42px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 42px 0 42px 0;
 }
 
 .btn_add {
-    transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .btn_add:hover {
-    transform: scale(1.05);  
+  transform: scale(1.05);
 }
 
 .form-control {
-    color: #fff;
-    background-color: #283056;
-    border: 1px solid #141420;
-    width: auto;
-    max-width: 250px;
-    min-height: 50px;
-    border-radius: 8px;
-    margin-right: 5px;
-    font-family: "Inter", sans-serif;
-    font-size: 18px;
+  color: #fff;
+  background-color: #283056;
+  border: 1px solid #141420;
+  width: auto;
+  max-width: 250px;
+  min-height: 50px;
+  border-radius: 8px;
+  margin-right: 5px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
 }
 
 .btn-outline-dark {
-    color: #fff;
-    border-color: #141420;
+  color: #fff;
+  border-color: #141420;
 }
 
 .formInputFull {
-    width: 100%;
-    background-color: #D9D9D9;
-    border-radius: 3px;
+  width: 100%;
+  background-color: #d9d9d9;
+  border-radius: 3px;
 }
 
-.input-line{
-    display: flex;
-    max-width: 90%;
+.input-line {
+  display: flex;
+  max-width: 90%;
 }
 
 .inputForm {
-    display: flex;
-    flex-direction: column;
-    padding: 0.3rem .3rem;
-    width: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0.3rem 0.3rem;
+  width: auto;
 }
- 
+
 .campo {
-width: 50%;
-float: left;
-color: #c0c0c0;
+  width: 50%;
+  float: left;
+  color: #c0c0c0;
 }
 
 .campo input {
-margin: 10px 1%;
-padding: 8px 1%;
-width: 90%;
+  margin: 10px 1%;
+  padding: 8px 1%;
+  width: 90%;
 }
 
 .campo select {
-margin: 10px 1%;
-padding: 8px 1%;
-width: 94%;
+  margin: 10px 1%;
+  padding: 8px 1%;
+  width: 94%;
 }
 
 .campo-full {
-width: 95%;
-float: left;
-color: #c0c0c0;
+  width: 95%;
+  float: left;
+  color: #c0c0c0;
 }
 
 .campo-full input {
-margin: 10px 1%;
-padding: 8px 1%;
-width: 90%;
+  margin: 10px 1%;
+  padding: 8px 1%;
+  width: 90%;
 }
 
 .campo-full select {
-margin: 10px 1%;
-padding: 8px 1%;
-width: 94%;
+  margin: 10px 1%;
+  padding: 8px 1%;
+  width: 94%;
 }
-
-
-
